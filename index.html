@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Usuarios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Gestión de Usuario</h1>
+
+    <!--  REGISTRO  -->
+    <section>
+        <h3>Registro de nuevo usuario</h3>
+
+        <form id="formRegistro">
+            <label>Correo electrónico:</label><br>
+            <input type="email" id="emailRegistro" placeholder="ejemplo@correo.com"><br><br>
+
+            <label>Contraseña:</label><br>
+            <input type="password" id="passRegistro" placeholder="Mínimo 6 caracteres"><br><br>
+
+            <button type="submit">Crear Cuenta</button>
+        </form>
+
+        <p id="msgRegistro" style="color: rgb(0, 110, 255);"></p>
+    </section>
+
+    <hr>
+
+    <!-- LOGIN  -->
+    <section>
+        <h3>Acceso al sistema</h3>
+
+        <form id="formLogin">
+            <label>Correo:</label><br>
+            <input type="email" id="loginCorreo" placeholder="Ingrese su correo"><br><br>
+
+            <label>Contraseña:</label><br>
+            <input type="password" id="loginPass" placeholder="******"><br><br>
+
+            <input type="checkbox" id="verPass"> Ver contraseña<br><br>
+
+            <button type="submit">Ingresar</button>
+        </form>
+
+        <p id="msgLogin" style="color: red;"></p>
+        <p id="bloqueoMensaje" style="color: brown; font-weight: bold;"></p>
+    </section>
+
+    <hr>
+
+    <!-- RECUPERACIÓN -->
+    <section>
+        <h3>Restablecimiento de contraseña</h3>
+
+        <form id="formRecuperar">
+            <label>Correo asociado a la cuenta:</label><br>
+            <input type="email" id="recCorreo" placeholder="Correo registrado"><br><br>
+
+            <button type="submit">Restablecer</button>
+        </form>
+
+        <p id="mensaje" style="color: green;"></p>
+    </section>
+
+    <!-- Archivo JavaScript -->
+    <script src="main.js"></script>
+
+</body>
+</html>

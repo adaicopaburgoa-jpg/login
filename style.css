@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+    background: #eee;
+    padding: 20px;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+section {
+    background: white;
+    padding: 15px;
+    margin: 15px auto;
+    width: 300px;
+    border: 1px solid #ccc;
+}
+
+input {
+    width: 95%;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    background: #3399ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1a75d1;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 8px;
+}
